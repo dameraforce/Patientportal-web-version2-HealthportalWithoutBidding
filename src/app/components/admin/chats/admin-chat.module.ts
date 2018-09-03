@@ -5,7 +5,7 @@ import { AdminChatRoutingModule } from './admin-chat.route';
 import { ChatsComponent } from './chats.component';
 import { ChatLayoutComponent } from './chat-layout/chat-layout.component';
 import { CollapsibleModule } from 'angular2-collapsible';
-import { ChatPipe } from '../chatpipe';
+import { ChatPipe } from './chatpipe';
 import { TabsModule } from '../../../shared/components/ngx-tabset-component/ngx-tabset';
 @NgModule({
   imports: [

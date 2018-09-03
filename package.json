@@ -89,6 +89,9 @@
     "strictMetadataEmit": true,
     "annotationsAs": "decorators"
   },
+  "compilerOptions": {
+        "moduleResolution": "node"
+    },
   "engines": {
     "node": "10.8.0",
     "npm": "6.3.0"
